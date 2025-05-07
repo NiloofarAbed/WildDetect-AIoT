@@ -44,7 +44,7 @@ Say less — here’s your copy-paste ready version, all clean and markdown-fres
 **Install all required Python packages:**
 ```bash
 pip install -r req.txt
-
+```
 
 
 ⸻
