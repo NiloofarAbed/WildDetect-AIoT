@@ -71,10 +71,11 @@ python bot.py
 
 ## 🧪 How It Works
 
-```mermaid graph TD
+```mermaid 
+graph TD
     A[Camera captures live feed] --> B[YOLOv8 detects animal]
     B --> C[Send image to farmer via Telegram]
-    C --> D[Farmer confirms if detection is correct]
+    C --> D[Farmer confirms detection]
     D -->|Correct| E[Enable Auto-Mode]
     E --> F[Future detections trigger buzzer & light]
     D -->|Incorrect| G[No action taken]
