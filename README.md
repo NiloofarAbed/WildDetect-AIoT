@@ -49,7 +49,7 @@ pip install -r req.txt
 
 ⸻
 
-🚀 Getting Started
+## 🚀 Getting Started
 	1.	Clone this repo:
 
 git clone https://github.com/NiloofarAbed/WildDetect-AIoT.git
