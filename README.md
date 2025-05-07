@@ -74,10 +74,10 @@ python bot.py
 ```mermaid
 graph TD
     A[Camera captures live feed] --> B[YOLOv8 detects animal]
-    B --> C[Send image to farmer via Telegram]
-    C --> D[Farmer confirms detection]
+    B --> C[Send image to users via Telegram]
+    C --> D[user confirms detection]
     D -->|Correct| E[Enable Auto-Mode]
-    E --> F[Future detections trigger buzzer & light]
+    E --> F[Future detections trigger actuators]
     D -->|Incorrect| G[No action taken]
 ```
 
