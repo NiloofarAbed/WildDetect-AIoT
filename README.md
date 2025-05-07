@@ -42,7 +42,7 @@ Peace of mind for your crops, powered by AI.
 Install all required Python packages:
 
 ```bash
-pip install -r requirements.txt
+pip install -r req.txt
 
 
 
