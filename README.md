@@ -1,55 +1,53 @@
-# 🐾 WildDetect-AIoT  
-**Smart AI + IoT Animal Detection System for Farmers**
+🐾 WildDetect-AIoT
 
-Welcome to **WildDetect-AIoT** – a Raspberry Pi-powered AI bot that detects wild animals using **YOLOv8**, alerts the farmer via **Telegram**, and scares them off with a **buzzer + light combo**!  
-Control everything from an **admin panel** and go fully **auto-mode** after confirming detections.  
+Smart AI + IoT Animal Detection System for Farmers
+
+Welcome to WildDetect-AIoT – a Raspberry Pi-powered AI bot that detects wild animals using YOLOv8, alerts the farmer via Telegram, and scares them off with a buzzer + light combo!
+Control everything from an admin panel and go fully auto-mode after confirming detections.
 Peace of mind for your crops, powered by AI.
 
----
+⸻
 
-## ✨ Features
+✨ Features
 
-| Feature | Description |
-|--------|-------------|
-| 🧠 YOLOv8 Detection | Real-time animal detection using camera feed and YOLOv8 |
-| 📲 Telegram Bot | Instant alerts and image notifications via Telegram |
-| 🛠️ Admin Panel | Sign up, sign in, and control devices remotely |
-| 🔔 Buzzer & Light | Scare off animals with GPIO-controlled hardware |
-| ✅ Manual Review | Farmer confirms detection accuracy |
-| 🤖 Auto Mode | Automatically triggers hardware for future detections |
+Feature	Description
+🧠 YOLOv8 Detection	Real-time animal detection using camera feed and YOLOv8
+📲 Telegram Bot	Instant alerts and image notifications via Telegram
+🛠️ Admin Panel	Sign up, sign in, and control devices remotely
+🔔 Buzzer & Light	Scare off animals with GPIO-controlled hardware
+✅ Manual Review	Farmer confirms detection accuracy
+🤖 Auto Mode	Automatically triggers hardware for future detections
 
----
-
-## ⚙️ Hardware Requirements
-
-- Raspberry Pi (with GPIO support) (Already tested on Raspberry pi 5,4)
-- Camera module (Pi Cam)
-- Buzzer module
-- Light module (LED or spotlight)
-- Internet connection (for bot communication)
-
----
-
-Say less — here’s your copy-paste ready version, all clean and markdown-fresh:
-
-## 💻 Software Requirements
-
-- Python 3.7+
-- [YOLOv8 (Ultralytics)](https://github.com/ultralytics/ultralytics)
-- Telethon  
-- OpenCV  
-- Pic2cam  
-- PyTorch  
-
-**Install all required Python packages:**
-```bash
-pip install -r req.txt
-```
 
 
 ⸻
 
-## 🚀 Getting Started
+⚙️ Hardware Requirements
+	•	Raspberry Pi (with GPIO support) — tested on Raspberry Pi 5 & 4
+	•	Camera module (Pi Cam)
+	•	Buzzer module
+	•	Light module (LED or spotlight)
+	•	Internet connection (for bot communication)
+
+⸻
+
+💻 Software Requirements
+	•	Python 3.7+
+	•	YOLOv8 (Ultralytics)
+	•	Telethon
+	•	OpenCV
+	•	Pic2cam
+	•	PyTorch
+
+Install all required Python packages:
+
+pip install -r req.txt
+
+
+
+⸻
+
+🚀 Getting Started
 	1.	Clone this repo:
 
 git clone https://github.com/NiloofarAbed/WildDetect-AIoT.git
@@ -115,9 +113,6 @@ WildDetect-AIoT/
 
 🖼️ Screenshots
 
-!(Workflow)[images/main.png]
-!(Bot Screen)[images/screen.png]
-!(Admin Panel Screen)[images/admin.png]
 
 ⸻
 
@@ -131,3 +126,5 @@ you must cite the following publication:
 Citation DOI: https://doi.org/10.1016/j.atech.2025.100829
 
 Give credit where it’s due — it supports the devs and helps the community thrive!
+
+⸻
