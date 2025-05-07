@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 
 
-⸻
+---
 
 ## 🚀 Getting Started
 	1.	Clone this repo:
@@ -66,7 +66,7 @@ python bot.py
 
 
 
-⸻
+---
 
 ## 🧪 How It Works
 
@@ -80,7 +80,7 @@ graph TD;
 
 
 
-⸻
+---
 
 ## 🛡 Admin Panel
 
@@ -91,7 +91,7 @@ Access your web panel to:
 	•	📸 View Detected Images
 	•	⚙️ Information of Account
 
-⸻
+---
 
 ## 📁 Project Structure
 
@@ -111,14 +111,15 @@ WildDetect-AIoT/
 
 
 
-⸻
+---
 
 ## 🖼️ Screenshots
 
 !(Workflow)[images/main.png]
 !(Bot Screen)[images/screen.png]
 !(Admin Panel Screen)[images/admin.png]
-⸻
+
+---
 
 ## 📝 License
 
