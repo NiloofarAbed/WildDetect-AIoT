@@ -30,44 +30,46 @@ Peace of mind for your crops, powered by AI.
 
 ---
 
+Say less — here’s your copy-paste ready version, all clean and markdown-fresh:
+
 ## 💻 Software Requirements
 
 - Python 3.7+
 - [YOLOv8 (Ultralytics)](https://github.com/ultralytics/ultralytics)
-- Telethon
-- OpenCV
-- Pic2cam
-- PyTorch
+- Telethon  
+- OpenCV  
+- Pic2cam  
+- PyTorch  
 
-Install all required Python packages:
-
+**Install all required Python packages:**
+```bash
 pip install -r req.txt
 
 
 
----
+⸻
 
-## 🚀 Getting Started
+🚀 Getting Started
 	1.	Clone this repo:
 
 git clone https://github.com/NiloofarAbed/WildDetect-AIoT.git
 cd WildDetect-AIoT
 
-	2.	Create Telegram Bot:
+	2.	Create a Telegram Bot:
 	•	Chat with @BotFather
-	•	Save the Bot Token
-	•	Get API ID and API Hash from my.telegram.org
+	•	Save the bot token
+	•	Get your API ID and API Hash from my.telegram.org
 	3.	Update bot.py:
-	•	Fill in your bot token, API ID, API Hash, and user settings
+	•	Fill in your Bot Token, API ID, API Hash, and user settings
 	4.	Start the bot:
 
 python bot.py
 
 
 
----
+⸻
 
-## 🧪 How It Works
+🧪 How It Works
 
 graph TD;
     A[Camera captures live feed] --> B[YOLOv8 detects animal];
@@ -79,58 +81,53 @@ graph TD;
 
 
 
----
+⸻
 
-## 🛡 Admin Panel
+🛡 Admin Panel
 
-Access your web panel to:
+Use the web panel to:
 	•	✅ Sign In / Sign Up
 	•	💡 Toggle Light
 	•	🔔 Toggle Buzzer
 	•	📸 View Detected Images
-	•	⚙️ Information of Account
+	•	⚙️ View Account Information
 
----
+⸻
 
-## 📁 Project Structure
+📁 Project Structure
 
 WildDetect-AIoT/
 ├── bot/                        # Telegram bot and admin logic
-│   ├── bot.py                  # Main Telegram bot logic (everything lives here!)
-│   ├── data.py                 # Generates charts and processes DB data
-│   ├── req.txt                 # Bot-specific Python requirements
-│   ├── data/           # Contains local database and historical data
+│   ├── bot.py                  # Main Telegram bot logic
+│   ├── data.py                 # Chart generation and DB processing
+│   ├── req.txt                 # Python dependencies
+│   ├── data/                   # Local database & historical data
 │
 ├── camera/                     # Camera + YOLO module
-│   ├── camera.py               # Handles camera input and image capture
-│   ├── epoch200               # Trained YOLOv8 model weights
+│   ├── camera.py               # Image capture and YOLO processing
+│   ├── epoch200                # YOLOv8 trained model weights
 │
-├── ngl/                        # Photo relay system between camera and bot
-│   ├── [takes captured images and sends them to the bot]
+├── ngl/                        # Relay system: sends captured images to bot
 
 
 
----
+⸻
 
-## 🖼️ Screenshots
+🖼️ Screenshots
 
 !(Workflow)[images/main.png]
 !(Bot Screen)[images/screen.png]
 !(Admin Panel Screen)[images/admin.png]
 
----
-
-## 📝 License
-
-This project is open-source and available for use under the terms of the MIT License.
-
-**However**, if you use, modify, or build upon this project in any academic, research, or commercial setting,  
-**you must cite the following publication**:
-
-> **Citation DOI**: [https://doi.org/10.1016/j.atech.2025.100829](https://doi.org/10.1016/j.atech.2025.100829)
-
-Give credit where it's due — it helps support the work and keeps the community strong!
-
-
-
 ⸻
+
+📝 License
+
+This project is open-source under the MIT License.
+
+However, if you use, modify, or build upon this project in any academic, research, or commercial setting,
+you must cite the following publication:
+
+Citation DOI: https://doi.org/10.1016/j.atech.2025.100829
+
+Give credit where it’s due — it supports the devs and helps the community thrive!
