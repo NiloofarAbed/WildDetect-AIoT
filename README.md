@@ -71,7 +71,7 @@ python bot.py
 
 ## 🧪 How It Works
 
-```mermaid 
+```mermaid
 graph TD
     A[Camera captures live feed] --> B[YOLOv8 detects animal]
     B --> C[Send image to farmer via Telegram]
