@@ -1,0 +1,12 @@
+telethon
+requests
+adafruit-circuitpython-dht
+Adafruit-Blinka
+gpiozero
+RPi.GPIO
+pandas
+matplotlib
+seaborn
+numpy
+
+# pip install -r req.txt
