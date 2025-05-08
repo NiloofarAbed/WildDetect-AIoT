@@ -119,7 +119,7 @@ WildDetect-AIoT/
 ![Bot Screen](images/screen.png)
 
 ### **IRL Detection**
-![Admin Panel Screen](images/irl.png)
+![In realv farm Detection](images/irl.png)
 
 ---
 
