@@ -115,14 +115,11 @@ WildDetect-AIoT/
 
 ## 🖼️ Screenshots
 
-### **System Workflow**
-![Workflow](images/main.png)
-
 ### **Bot Screen**
 ![Bot Screen](images/screen.png)
 
-### **Admin Panel**
-![Admin Panel Screen](images/admin.png)
+### **IRL Detection**
+![Admin Panel Screen](images/irl.png)
 
 ---
 
