@@ -121,6 +121,9 @@ WildDetect-AIoT/
 ### **IRL Detection**
 ![In realv farm Detection](images/irl.png)
 
+### **Detection Test**
+![Accuracy](images/detection.jpeg)
+
 ---
 
 ## 📝 License & Citation
